@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./gameboy.css" />
+    <link rel="stylesheet" href="./astroids.css" />
     <title>Document</title>
 </head>
 <body>
-    <canvas id="gameCanvas"></canvas>
-    
-</body>
+    <!--   Learn How to Make These Graphics: https://medium.com/coding-artist/a-beginners-guide-to-pure-css-images-ef9a5d069dd2 -->
+      <div class="animated slideInLeft" id="square">
+        <div class="animated slideInRight" id="top-line"></div>
+        <div class="animated slideInRight" id="topSquare">
+          <!-- <div class="animated slideInLeft" id="screen"></div> -->
+          <div id="asteroids">Asteroids game goes here!</div>
+          <h3 class="animated slideInRight" id="gameboy">Gameboy</h3>
+          <h3 class="animated slideInRight" id="color"><span id="C">C</span><span id="O">o</span><span id="L">l</span><span id="O-2">o</span><span id="R">r</span></h3>
+          <div id="power"></div>
+        </div>
+        <div class="animated bounceInUp" id="bottomSquare">
+        </div>
+        <div id="bottom">
+        <div class="animated bouneInUp" id="buttonA">
+        <p class="animated bouneInDown" id="A">A</p></div>
+        <div class="animated bouneInUp" id="buttonB">
+        <p class="animated bouneInDown" id="B">B</p></div>
+        <div class="animated slideInLeft" id="dpad-horizontal"></div>
+        <div class="animated bouneInUp" id="dpad-vertical"></div>
+        <div class="animated slideInRight" id="select"></div>
+        <div class="animated slideInLeft" id="start"></div>
+        </div>
+      </div>
+
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.10/p5.js"></script> -->
+    <script src="./astroids.js" type="text/ecmascript"></script>
+    </body>
 </html>
