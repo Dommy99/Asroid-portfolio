@@ -43,3 +43,9 @@ h1 {
 h2 {
     font-size: 16px;
 }
+
+#gameCanvas {
+width:687px ;
+height: 351px;
+border-radius: 38px;
+}
